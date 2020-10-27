@@ -1,0 +1,156 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.menu ul li {
+	margin-left: 25px;
+}
+.wrapper-features {
+	margin-top: 60px;
+}
+.about-img {
+	margin-top: -30px;
+}
+.about-img img {
+	width: 100%;
+}
+.form input[type="text"], input[type="email"], input[type="number"] {
+	width: 25%;
+}
+.service-content {
+	margin-bottom: 10px;
+}
+.blog-title {
+	width: 300px;
+}
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.logo {
+	margin-top: 35px;
+}
+.inner-slider h2 {
+	font-size: 50px;
+}
+.wrapper-features {
+	margin-top: 60px;
+}
+.single-features {
+	border-right: 0;
+	border-bottom: 1px solid #fff;
+}
+
+.about-content h3::before {
+	content: "";
+	top: 56px;
+}
+.about-img {
+	margin-top: 0;
+}
+.about-img img {
+	width: 100%;
+}
+.form input[type="text"], input[type="email"], input[type="number"] {
+	width: 50%;
+}
+form {
+	text-align: center;
+}
+.form-btn {
+	display: block;
+}
+.service-content {
+	padding: 70px 33px 50px 0;
+	margin-bottom: 10px;
+}
+.blog-title {
+	width: 300px;
+}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.wrapper-features {
+	margin-top: 60px;
+}
+.inner-slider h2 {
+	font-size: 50px;
+}.single-features {
+	border-right: 0;
+	border-bottom: 1px solid #fff;
+}
+.about-img {
+	margin-top: 0;
+}
+.about-img img {
+	width: 100%;
+}
+.form input[type="text"], input[type="email"], input[type="number"] {
+	width: 70%;
+}
+form {
+	text-align: center;
+}
+.form-btn {
+	display: block;
+}
+.service-content {
+	padding: 70px 33px 50px 0;
+	margin-bottom: 10px;
+}
+.pricing-content {
+	width: 80%;
+	margin: 20px auto;
+}
+ .blog-title {
+	width: 300px;
+}
+.copyright-area p {
+	color: #777777;
+	font-size: 14px;
+	text-align: center;
+}
+.footer-menu {
+	text-align: center;
+}
+}
+ 
+/* Large Mobile :480px. */
+@media (max-width: 576px) {
+ .logo {
+	margin-top: 15px;
+}
+.inner-slider h2 {
+	font-size: 30px;
+}
+.inner-slider {
+	margin-bottom: 50px;
+}
+.about-content h3::before {
+	content: "";
+	top: 42px;
+}
+.service-content {
+	margin-right: 0;
+	padding: 25px 10px;
+}
+.about-content h3::before {
+	content: "";
+	top: 56px;
+}
+.blog-img img {
+	width: 100%;
+}
+.blog-title {
+	width: 65%;
+}
+}
